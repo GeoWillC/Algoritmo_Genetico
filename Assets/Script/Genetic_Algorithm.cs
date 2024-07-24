@@ -20,7 +20,7 @@ namespace AlgoritmoGenetico
         public Scrollbar mutationScrollbar; // Scrollbar para ajustar mutation_prob
         public TextMeshProUGUI mutationValueText; // TextMeshPro para mostrar el valor de mutation_prob
 
-        private void Start()
+        private void Iniciar()
         {
             // Configura el valor inicial del scrollbar y el texto
             mutationScrollbar.onValueChanged.AddListener(OnScrollbarValueChanged);
